@@ -33,3 +33,30 @@ section#cll {
     width: 311px;
     background: url('pacote-d013/imagens/frame-iphone.png') no-repeat;
 }
+
+iframe#tela {
+    position: relative;
+    top: 81px;
+    left: 23px;
+    width: 266px;
+    height: 471px;
+}
+
+section#redes {
+    text-align: right;
+}
+
+section#redes img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.699);
+    box-sizing: border-box;
+}
+
+section#redes img:hover{
+    border: 2px solid aliceblue;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform .3s, border .7s;
+}
